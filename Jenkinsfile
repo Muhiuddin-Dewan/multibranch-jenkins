@@ -11,5 +11,10 @@ pipeline{
                 echo "hello from other side of the main branch"
             }
         }    
+        stage('test'){
+            steps{
+                echo "testing again"
+            }
+        }
     }
 }
