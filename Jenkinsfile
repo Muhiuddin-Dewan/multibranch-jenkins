@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage('hello'){
             steps{
-                echo "hello from main branch"
+                echo "hello from branch 2"
             }
         }
         stage('world'){
             steps{
-                echo "hello world from main branch"
+                echo "hello world from other side of branch 2"
             }
         }    
     }
